@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ADVENTURE</title>
+        <link rel="stylesheet" href="ex.css">
+        <style>
+            #t31{
+                color: orangered;
+                font-size: 37px;
+                margin-left: 217px;
+            }
+            #i31{
+                width: 467px;
+                height: 355px;
+                float: right;
+            }
+            #s31{
+                font: bold;
+                font-size: 25px;
+            }
+            p{
+                font-size: 23px;
+                font-style: italic;
+                line-height: 50px;
+            }
+            #d31{
+                display: flex;
+            }
+            #f31{
+                flex: 20%;
+            }
+            #f32{
+                flex: 55%;
+            }
+            #f33{
+                display: inline-block;
+                margin-left: 60px;
+            }
+            .li31{
+                list-style-image:url(css.png) ;
+                margin-right: 30px;
+                font-size: 22px;
+                line-height: 20px;
+            }
+            #io1{
+                width: 280px;
+            }
+            .des{
+                text-align: center;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            #h31{
+                color: #f95e24;
+            }
+            #f34{
+                display: flex;
+            }
+            #f35{
+                flex: 33%;
+                margin-right: 15px;
+                margin-left: 30px;
+            }
+            th,td{
+                padding: 8px;
+                text-align: left;
+                font-size: 20px;
+                font-style: italic;
+            }
+            #ca3{
+                caption-side: top;
+                margin-top: 18px;
+                margin-bottom: 12px;
+                font-size: 20px;
+                color: #f95e24;
+            }
+            .p3{
+                font-size: 20px;
+                color: #505050;
+                line-height: 33px;
+            }
+            #pow{
+                text-shadow: 2px 2px orangered;
+            }
+            .gal{
+                display: inline-block;
+                width: 210px;
+                height: 200px;
+                margin-left: 23px;
+                margin-right: 30px;
+            }
+            .gal img{
+               width: 100%;
+            }
+            .gal img:hover{
+                transform: scale(1.1);
+            }
+            #ex31{
+                width: 200px;
+                display: inline-block;
+                margin-left: 365px;
+            }
+            #ex32{
+                display: inline-block;
+                margin-left: -16px;
+                vertical-align: top;
+                position: relative;
+                color: orangered;
+                margin-top: 57px;
+                text-shadow: 2px 2px black;
+                font-size: 25px;
+            }
+            #ex32 .tool{
+                visibility: hidden;
+                background-color: black;
+                color: #fff;
+                width: 418px;
+                bottom: 100%;
+                left: 50%;
+                margin-left: -60px;
+                position: absolute;
+                z-index: 1;
+                padding: 8px;
+                font-size: 17px; 
+            }
+            #ex32:hover .tool{
+                visibility: visible;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="top">
+            <h1 id="to">SGK KTM SHOWROOM </h1>
+            <img id="i1" src="IMG_20210830_130830.jpg">
+        </div>
+        <ul id="nav">
+            <li><a href="first.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="second.html">E-RIDE</a></li>
+            <li><a href="third.html">TRAVEL</a></li>
+            <li><a href="naked.html">NAKED BIKE</a></li>
+            <li><a href="service.html">SERVICE</a></li>
+        </ul>
+        <img src="390fi.jpg" width="100%">
+        <h1 id="t31">KTM ADVENTURE 390</h1>
+        <img id="i31"src="adventure-390.jpg">
+        <p id="p31">
+            <b>KTM Adventure 390,</b><br>
+            Satisfy your restless spirit with the new KTM 390 ADVENTURE. <br>
+            This compact single cylinder travel - enduro machine has a sporty design attitude,<br>
+            with the comprehensive equipment and proven performance credentials of the<br>
+            KTM ADVENTURE range. Its versatile ergonomics , smooth power delivery and innovative<br>
+            technology all come together in a comfortable , lightweight package built<br>
+            for those wanting to fit more adventure into their daily lives.<br>
+            <b>Starting At Rs. 3,28,483/- </b>
+        </p>
+        <div id="d31">
+            <div id="f31">
+                <ul>
+                    <li class="li31">STROKE - 62 mm</li><br>
+                    <li class="li31">POWER IN HP - 43.5 HP</li><br>
+                    <li class="li31">TORQUE - 37 Nm</li><br>
+                    <li class="li31">POWER IN KW - 30 KW</li>
+                </ul>
+            </div>
+            <div id="f32">
+                <figure id="f33" onclick="orange(i31)">
+                    <img id="io1" src="adventure-390_orange.jpg">
+                    <figcaption class="des">Orange color Bike</figcaption>
+                </figure>
+                <figure id="f33" onclick="white(i31)">
+                    <img id="io1" src="adventure-390.jpg">
+                    <figcaption class="des">White color Bike</figcaption>
+                </figure>
+            </div>
+        </div><hr>
+        <script>
+            function orange(img){
+                img.src="adventure-390_orange.jpg"
+            }
+            function white(img){
+                img.src="adventure-390.jpg"
+            }
+        </script>
+        <h1 id="h31"><center>Adventure 390 Specifications</center></h1><hr>
+        <div id="f34">
+            <div id="f35">
+                <article>
+                    <h2>ENGINE & EXHAUST</h2>
+                    <p class="p3">
+                        KTM Adventure 390 Each adventure is a true test of man and machine .
+                        With a proven track record in the Dakar rally , the toughest adventure of them all KTM 
+                        has gained the know -how to produce reliable powerplants that deliver top performance 
+                        across a wide range of terrain . Whether you intend on pushing further , harder or more often , 
+                        the compact and lightweight engines powering the KTM ADVENTURE range are built to take you 
+                        to new extremes.
+                    </p>
+                </article>
+                <details>
+                    <summary>More details</summary>
+                    <table>
+                        <caption id="ca3">TECHNICAL DETAILS OF ENGINE</caption>
+                        <tr>
+                            <th>TRANSMISSION</th>
+                            <td>6-speed</td>
+                        </tr>
+                        <tr>
+                            <th>COOLING</th>
+                            <td>Liquid cooled</td>
+                        </tr>
+                        <tr>
+                            <th>STARTER</th>
+                            <td>Electric starter</td>
+                        </tr>
+                        <tr>
+                            <th>BORE</th>
+                            <td>89 mm</td>
+                        </tr>
+                        <tr>
+                            <th>LUBRICATION</th>
+                            <td>Wet sump</td>
+                        </tr>
+
+                    </table>
+                </details>
+            </div>
+            <div id="f35">
+                <article>
+                    <h2>CHASSIS</h2>
+                    <p class="p3">
+                        KTM Adventure 390 The KTM 390 ADVENTURE is a versatile travel motorcycle , well balanced and purposeful . 
+                        It has super agile and sporty handling on the street and as well as the offroad capability to take on rougher 
+                        dirt roads . Even with its large volume fuel tank , the design of the bodywork and the seat allow 
+                        excellent at the ergonomics , freedom of movement and comfort . It offers a low seat height , while still 
+                        providing sufficient ground clearance .
+                    </p>
+                </article>
+            </div>
+            <div id="f35">
+                <article>
+                    <h2>BODYWORK & GRAPHICS</h2>
+                    <p class="p3">
+                        KTM Adventure 390 The bodywork on the KTM 390 ADVENTURE is not only shaped to impress, but also to 
+                        give you high-level performance and comfort on the ride. The sporty graphics highlight the bike's rally 
+                        DNA and send a clear message that it is ready for more adventurous journeys.The rugged , minimalist bodywork 
+                        defines the identity of the bike and underlines its hardcore roots high-level performance 
+                        and comfort on the ride.
+                    </p>
+                </article>
+            </div>
+        </div><hr>
+        <h1 id="pow"><center>KTM 390 ADVENTURE 2021 POWERPARTS</center></h1>
+        <div class="gal">
+            <img src="bag.jpg" alt="">
+            <div class="des">REAR BAG</div>
+        </div>
+        <div class="gal">
+            <img src="skid.jpg" alt="">
+            <div class="des">SKID PLATE</div>
+        </div>
+        <div class="gal">
+            <img src="ero.jpg" alt="">
+            <div class="des">SEAT</div>
+        </div>
+        <div class="gal">
+            <img src="silencer.jpg" alt="">
+            <div class="des">AKRAPOVIC SLIP ON LINE</div>
+        </div>
+        <div class="gal">
+            <img src="pumb.jpg" alt="">
+            <div class="des">FOOT PUMP</div>
+        </div><hr>
+        <img id="ex31" src="excn.jpeg">
+        <div id="ex32">VEHICLE EXCHANGE AVAILABLE
+            <span class="tool">NOTE : The Maximum Age of Vehicle is Upto 5(five) Years</span>
+        </div>
+        <div id="last">
+            <img id="bo" src="IMG_20210830_130830.jpg" width="150px" height="54px">
+            <img class="add" src="loc.png" > 
+            <h3>137, Sirumugau road, Karamadai, Coimbatore 641 104</h3>
+            <img class="add" src="cont.jpeg">
+            <h3> +91 9361372740</h3>
+            <img class="add" src="m.png"> 
+            <h3>gokulkrishnans333@gmail.com</h3>
+        </div>
+    </body>
+</html>
